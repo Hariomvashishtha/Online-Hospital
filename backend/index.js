@@ -13,6 +13,9 @@ const app=express();
 const port=process.env.PORT || 8000;
 const corsOptions={
     origin:true, // any domain can access the server
+    origin:["http://localhost:3000"],
+    credentials:true,
+    methods:["GET","POST"],
 }
 
 app.get("/", (req, res) => {   

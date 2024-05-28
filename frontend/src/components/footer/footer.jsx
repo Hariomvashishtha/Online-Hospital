@@ -84,7 +84,7 @@ const Footer = () => {
     <footer className="pt-10 pb-10">
       <div className="conatiner">
         <div className="flex flex-col flex-wrap  flex-start md:flex-row gap-[50px]">
-          <div className="ml-[10rem]">
+          <div className="lg:ml-[10rem]">
             <img src={logo} alt="logo" />
             <p className="text-textColor text-[16px] leading-7 font-[400] ">
               Copyright @ {year} devloped by Hariom Vashishtha. All rights reserved.</p>

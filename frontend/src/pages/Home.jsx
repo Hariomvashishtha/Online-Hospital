@@ -66,7 +66,7 @@ const Home = () => {
               </div>
             </div>
             {/* hero content */}
-            <div className="mx-[8rem] flex gap-[30px] justify-end">
+            <div className="lg:mx-[8rem] flex gap-[30px] justify-end sm:mx-2 md:mx-2">
               <div>
                 <img src={heroImg01} alt="" className="w-full" />
               </div>
@@ -116,9 +116,9 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className=" mx-[3rem]">
-              <div className="flex items-center justify-center h-[145px] w-[200px]   relative left-[75px]">
-                <img src={icon02}></img>
+            <div className="mx-[3rem]">
+              <div className="flex items-center justify-center h-[145px] w-[200px] relative left-[75px] ">
+                <img src={icon02}  className=" lg:ml-0 sm:ml-[-55px] md:ml-[-55px]"></img>
               </div>
               <div className="mt-[20px]">
                 <h2 className="text-[26px] leading-9 text-headingCoolor font-[700] text-center">
@@ -181,7 +181,7 @@ const Home = () => {
         <div className="container">
           <div className="relative flex flex-col items-center justify-center lg:flex-row ">
             {/* faeture content */}
-            <div className="xl:w-[670px] relative left-[10rem]">
+            <div className="xl:w-[670px] lg:relative lg:left-[10rem]">
               <h2 className="heading text-[40px] items-center ">
                 {" "}
                 Get Virtual treatment <br /> anytime, Anywhere

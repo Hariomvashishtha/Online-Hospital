@@ -27,7 +27,7 @@ const Home = () => {
         <div className="container">
           <div className="flex flex-col lg:flex-row gap-[60px] justify-between">
             {/* hero content */}
-            <div className="mx-[8rem]">
+            <div className="lg:mx-[8rem] sm:mx-2 md:mx-2">
               <div className="lg:w-[370px]">
                 <h1 className="text-[26px] leading-[26px] text-headingCoolor font-[800] md:text-[40px] md:leading-[70px]">
                   We help patients live a healthy , longer life
@@ -40,15 +40,15 @@ const Home = () => {
               </div>
               {/* heroCounter */}
               <div className="mt-[30px] lg:mt-[30px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
-                <div>
+                <div className="flex flex-col items-center justify-center">
                   <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingCoolor">
                     30+
                   </h2>
-                  <span className="w-[100px] h-2 bg-yellow-400 rounded-full block mt-[-9px] "></span>
+                  <span className="w-[100px] h-2 bg-yellow-400 rounded-full block mt-[-9px]"></span>
                   <p className="text_para"> Year Of Experience </p>
                 </div>
 
-                <div>
+                <div className="flex flex-col items-center justify-center">
                   <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingCoolor">
                     15+
                   </h2>
@@ -56,7 +56,7 @@ const Home = () => {
                   <p className="text_para"> Clinical Location </p>
                 </div>
 
-                <div>
+                <div className="flex flex-col items-center justify-center">
                   <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingCoolor">
                     100%
                   </h2>

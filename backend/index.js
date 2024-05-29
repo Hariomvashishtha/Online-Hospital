@@ -14,7 +14,7 @@ const port= 8000;
 const MONGO_URL="mongodb+srv://hs1957490:Nishu%402001@cluster0.qhlqz6y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 const corsOptions={
     origin:true, // any domain can access the server
-    origin:["http://localhost:3000"],
+    origin:["http://localhost:5173","http://localhost:5174","http://localhost:5175"],
     credentials:true,
     methods:["GET","POST"],
 }

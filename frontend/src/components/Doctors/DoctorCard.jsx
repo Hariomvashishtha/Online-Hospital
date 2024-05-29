@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import { BsArrowRightCircle } from "react-icons/bs";
 import doctorImg from "../../assets/images/doctor-img03.png";
 const DoctorCard = ({ key, doctor }) => {
-  debugger;
   const { 
     photo,
     name,
@@ -19,7 +18,7 @@ const DoctorCard = ({ key, doctor }) => {
     experiences,
     qualifications,
   } = doctor;
- debugger;
+
   // console.log(name+avgRating+totalPatients+totalRating+photo+specialty);
 
   return (

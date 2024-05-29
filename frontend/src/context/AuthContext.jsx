@@ -9,7 +9,7 @@
 import { createContext, useContext,useState,useReducer, useEffect } from "react";
 
 const initialState = {
-    user:localStorage.getItem("user")!== undefined ? JSON.parse(localStorage.getItem("user")):null,
+    user:localStorage.getItem("user")!== undefined && localStorage.getItem("user") && localStorage.getItem("user") !== null ? JSON.parse(localStorage.getItem("user")):null,
     token:localStorage.getItem("token") || null,
     role:localStorage.getItem("role") || null
 }

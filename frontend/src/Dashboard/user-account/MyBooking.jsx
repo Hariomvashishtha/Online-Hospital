@@ -8,7 +8,6 @@ import Loading from "../../components/Loader/Loading";
 import ErrorLoader from "../../components/Error/ErrorLoader";
 
 const MyBooking = () => {
-debugger;
   const ans= useFetchData(
     `${BASE_URL}/users/appointments/my-appointments`
   );

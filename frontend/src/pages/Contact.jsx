@@ -10,7 +10,7 @@ const Contact = () => {
           Got a technical issue ? Want to send feedback about a beta feature?
           Let us know
         </p>
-        <form action="#" className="space-y-8">
+        <form action="#" className="space-y-8 sm:w-max lg:w-auto">
           <div className="">
             <label className="form_label" htmlFor="email"> Your Email</label>
             <input type="email" id="email" className="mt-1 form_input"  placeholder="example@gmail.com"/>

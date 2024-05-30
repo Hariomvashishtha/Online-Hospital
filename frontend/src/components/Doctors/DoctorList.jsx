@@ -17,7 +17,7 @@ const DoctorList = () => {
       {error && !loading && <ErrorLoader errMessage={error} />}
 
       { !loading && !error &&
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px] ml-[10rem] mr-[5rem]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 lg:gap-[30px] lg:mt-[30px] sm:mt-[55px] lg:ml-[10rem] lg:mr-[5rem] sm:m-0">
           {data.map((doctor, index) => (
             <DoctorCard key={doctor._id} index={doctor._id} doctor={doctor} />
           ))}

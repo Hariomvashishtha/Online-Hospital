@@ -1,2 +1,2 @@
-export const BASE_URL="http://localhost:8000/api/v1";
+export const BASE_URL="https://online-hospital-server.vercel.app";
 export const token=localStorage.getItem("token");

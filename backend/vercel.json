@@ -1,0 +1,24 @@
+{ 
+    "version": 2,
+     "builds": [
+        {
+            "src": "*.js",
+            "use": "@vercel/node"
+        }   
+     ],
+     "routes": [
+        {
+            "source": "/(.*)",
+             "destination": "/" 
+       }
+     ],
+     "env": {
+        "MONGO_URL":"mongodb+srv://hs1957490:Nishu%402001@cluster0.qhlqz6y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+     },
+     "rewrites": [
+        {
+             "source": "/(.*)",
+              "destination": "/" 
+        }
+  ] 
+}

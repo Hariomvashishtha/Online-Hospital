@@ -13,10 +13,17 @@ const useFetchData = (url) => {
     const fetchData = async () => {
       try {
         setLoading(true);
+        debugger;
        
+        // const res = await fetch(url, {
+        //   headers: { Authorization: `Bearer ${token}` },
+        // });
         const res = await fetch(url, {
-          headers: { Authorization: `Bearer ${token}` },
-          mode: 'no-cors',
+          method: 'GET',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Content-Type': 'application/json', // You can include other headers if needed
+          },
         });
         const result = await res.json();
         if (!res.ok) {

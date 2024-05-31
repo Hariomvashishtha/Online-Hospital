@@ -16,6 +16,7 @@ const useFetchData = (url) => {
        
         const res = await fetch(url, {
           headers: { Authorization: `Bearer ${token}` },
+          mode: 'no-cors',
         });
         const result = await res.json();
         if (!res.ok) {

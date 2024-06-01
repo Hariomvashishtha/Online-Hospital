@@ -1,3 +1,3 @@
-export const BASE_URL="http://localhost:8000/.netlify/functions/index/api/v1";
+export const BASE_URL="https://onlinehospitalbackend-production.up.railway.app/api/v1";
 
 export const token=localStorage.getItem("token");

@@ -14,19 +14,19 @@ const ServiceCard = ({ item, index }) => {
       <p className="text-[16px] leading-7 text-textColor font-[400] mt-3">
         {desc}
       </p>
-      <div className="flex items-center justify-between mt-[20px]">
+      <div className="flex items-center lg:justify-between md:justify-between sm:justify-around mt-[20px]">
         <Link
           to="/doctors"
-          className="w-[44px] h-[44px] rounded-full  mt-[8px] mx-[3rem]
-               flex items-center justify-center group hover:bg-primaryColor hover:border-none relative ml-[-25px]"
+          className="w-[44px] h-[44px] rounded-full  mt-[8px] mx-[6rem]
+               flex items-center justify-center group hover:bg-primaryColor hover:border-none relative lg:ml-0  md:ml-10 sm:ml-[65px]"
         >
           <BsArrowRightCircle
             style={{ height: "32px", width: "32px" }}
             className="relative w-6 h-5 group-hover:text-white"
           />
         </Link>
-        <span
-          className="w-[40px] h-[40px] flex items-center justify-center text-[18px] leading-[15px] font-[600]
+        <div
+          className="w-[40px] h-[40px] flex items-center justify-center text-[18px] leading-[15px] font-[600] sm:ml-16 lg:ml-0 md:ml-4
         "
           style={{
             backgroundColor: bgColor,
@@ -35,7 +35,7 @@ const ServiceCard = ({ item, index }) => {
           }}
         >
           {index + 1}
-        </span>
+        </div>
       </div>
     </div>
   );

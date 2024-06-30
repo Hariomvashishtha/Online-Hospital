@@ -100,14 +100,14 @@ const Footer = () => {
               </div>
           </div>
           <div>
-            <h2 className="text-[20px] leading-8 text-headingCoolor font-[600]">
+            <h2 className="text-[20px] leading-8 text-headingCoolor font-[600] text-center ">
               Quick Links
             </h2>
-            <ul>
+            <ul className="">
               {quickLinks01.map((item, index) => (
                 <li
                   key={index}
-                  className="text-[16px] leading-7 text-textColor font-[400] mt-4"
+                  className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center"
                 >
                   <Link to={item.path} className="text-[16px] leading-6 font-[400] text-textColor" >{item.display}</Link>
                 </li>
@@ -115,14 +115,14 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-[20px] leading-8 text-headingCoolor font-[600]">
+            <h2 className="text-[20px] leading-8 text-headingCoolor font-[600] text-center">
               I want  to :
             </h2>
             <ul>
               {quickLinks02.map((item, index) => (
                 <li
                   key={index}
-                  className="text-[16px] leading-7 text-textColor font-[400] mt-4"
+                  className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center"
                 >
                   <Link to={item.path} className="text-[16px] leading-6 font-[400] text-textColor" >{item.display}</Link>
                 </li>
@@ -130,16 +130,16 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-[20px] leading-8 text-headingCoolor font-[600]">
+            <h2 className="text-[20px] leading-8 text-headingCoolor font-[600] text-center">
              Support 
             </h2>
             <ul>
               {quickLinks03.map((item, index) => (
                 <li
                   key={index}
-                  className="text-[16px] leading-7 text-textColor font-[400] mt-4"
+                  className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center"
                 >
-                  <Link to={item.path} className="text-[16px] leading-6 font-[400] text-textColor" >{item.display}</Link>
+                  <Link to={item.path} className="text-[16px] leading-6 font-[400] text-textColor " >{item.display}</Link>
                 </li>
               ))}
             </ul>

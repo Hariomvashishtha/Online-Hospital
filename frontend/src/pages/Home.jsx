@@ -36,7 +36,10 @@ const Home = () => {
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Perspiciatis, eveniet.
                 </p>
-                <button className="relative mx-auto mt-5 mr-0 btn left-6">Request an Appointment</button>
+                <Link to="/doctors">
+                  <button className="relative mx-auto mt-5 mr-0 btn left-6">Book an Appointment</button>
+                </Link>
+                {/* <button className="relative mx-auto mt-5 mr-0 btn left-6">Request an Appointment</button> */}
               </div>
               {/* heroCounter */}
               <div className="mt-[30px] lg:mt-[30px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
@@ -198,7 +201,7 @@ const Home = () => {
                   online scheduling tool to select an appointment time
                 </li>
               </ul>
-              <Link to="/">
+              <Link to="/doctors">
                 <button className="btn relative left-[85px]">Learn More</button>
               </Link>
             </div>

@@ -85,10 +85,10 @@ const Footer = () => {
       <div className="conatiner">
         <div className="flex flex-col flex-wrap  flex-start md:flex-row gap-[50px]">
           <div className="lg:ml-[10rem]">
-            <img src={logo} alt="logo" />
-            <p className="text-textColor text-[16px] leading-7 font-[400] ">
+            <img src={logo} alt="logo" className="ml-[60px]" />
+            <p className="text-textColor text-[16px] leading-7 font-[400] m-4 p-4 text-wrap ">
               Copyright @ {year} devloped by Hariom Vashishtha. All rights reserved.</p>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 sm:justify-between md:justify-normal lg:justify-normal lg:ml-6">
                 {socialLinks.map((item, index) => (
                   <Link
                     to={item.path}

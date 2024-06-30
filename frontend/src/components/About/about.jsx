@@ -19,11 +19,11 @@ const About = () => {
           
           {/* about content */}
           <div className="w-full lg:w-1/2 xl:w-[440px] order-1 lg:order-2">
-            <h2 className="heading leading-[50px]  text-[40px] font-[500]">Proud to be one of the nations best</h2>
-            <p className="text_para">
+            <h2 className="heading leading-[50px]  text-[40px] font-[500] m-4 p-4">Proud to be one of the nations best</h2>
+            <p className="p-4 m-4 text_para">
               For 30 years in a row ,U.S. News & World Report has recognized us as one of the best publics hospitals
               in the nation and #1 in Texas. </p>
-            <p className="text_para"> Our best is something we strive for each day ,caring for our patients-not
+            <p className="p-4 m-4 text_para"> Our best is something we strive for each day ,caring for our patients-not
             looking back at what accomplished but towards what we can do tomorrow.Proving the best .</p>
             <Link to="/"><button className="btn">Learn More</button></Link>
           </div>

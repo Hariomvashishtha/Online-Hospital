@@ -7,6 +7,7 @@ import { useParams } from "react-router-dom";
 import { BASE_URL ,token} from "../../config";
 import { toast } from "react-toastify";
 import HashLoader from "react-spinners/HashLoader";
+import { useNavigate } from "react-router-dom";
 
 const FeedBackForm = () => {
     const [rating, setRating] = useState(0);
@@ -14,9 +15,15 @@ const FeedBackForm = () => {
     const [reviewText, setReviewText] = useState("");
     const [loading , setLoading] = useState(false);
     const {id}=useParams();
+    const navigate = useNavigate();
     const handleSubmitReview=async (e)=>{
       e.preventDefault();
       setLoading(true);
+      if(!token)
+      {
+        navigate("/login");
+        return ;
+      }
     
       try
       {

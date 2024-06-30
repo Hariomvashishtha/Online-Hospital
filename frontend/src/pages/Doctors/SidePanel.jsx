@@ -4,12 +4,20 @@ import React from "react";
 import { BASE_URL } from "../../config";
 import {token} from "../../config";
 import {toast} from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 import convertTime from "../../utils/convertTime";
 const SidePanel = ({ doctorId ,ticketPrice,timeSlots}) => {
+  const navigate = useNavigate();
   
     const bookingHandler = async () => {
       console.log("clicked");
+      if(!token)
+        {
+          navigate("/login");
+          return;
+        }
+
       try
       {
         const res =await fetch(`${BASE_URL}/bookings/checkout-session/${doctorId}`, {

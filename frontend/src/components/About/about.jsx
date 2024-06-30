@@ -25,7 +25,7 @@ const About = () => {
               in the nation and #1 in Texas. </p>
             <p className="p-4 m-4 text_para"> Our best is something we strive for each day ,caring for our patients-not
             looking back at what accomplished but towards what we can do tomorrow.Proving the best .</p>
-            <Link to="/"><button className="btn">Learn More</button></Link>
+            <Link to="/"><button className="btn relative left-[45px]">Learn More</button></Link>
           </div>
         </div>
       </div>

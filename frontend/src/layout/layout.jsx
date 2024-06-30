@@ -12,7 +12,6 @@ const Layout=()=>{
     setAlertMessage('Mobile View is under progress so open in desktop  !');
   }, []);
     return <>
-    <AlertMessage message={alertMessage} />
     <Header/>
     <main>
         <Routers/>

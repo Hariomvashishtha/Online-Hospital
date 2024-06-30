@@ -29,14 +29,14 @@ const Home = () => {
             {/* hero content */}
             <div className="lg:mx-[8rem] sm:mx-2 md:mx-2">
               <div className="lg:w-[370px]">
-                <h1 className="text-[26px] leading-[26px] text-headingCoolor font-[800] md:text-[40px] md:leading-[70px]">
+                <h1 className="text-[26px] leading-[26px] text-headingCoolor font-[800] md:text-[40px] md:leading-[70px] mx-auto mr-0">
                   We help patients live a healthy , longer life
                 </h1>
                 <p className="text_para">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Perspiciatis, eveniet.
                 </p>
-                <button className="btn">Request an Appointment</button>
+                <button className="relative mx-auto mt-5 mr-0 btn left-6">Request an Appointment</button>
               </div>
               {/* heroCounter */}
               <div className="mt-[30px] lg:mt-[30px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">

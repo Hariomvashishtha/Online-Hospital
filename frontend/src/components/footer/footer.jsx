@@ -27,7 +27,7 @@ const socialLinks = [
 
 const quickLinks01 = [
   {
-    path: "/home",
+    path: "/",
     display: "Home",
   },
   {
@@ -46,7 +46,7 @@ const quickLinks01 = [
 
 const quickLinks02 = [
   {
-    path: "/find-a-doctor",
+    path: "/doctors",
     display: "Find a Doctor",
   },
   {
@@ -89,14 +89,14 @@ const Footer = () => {
             <p className="text-textColor text-[16px] leading-7 font-[400] m-4 p-4 text-wrap ">
               Copyright @ {year} devloped by Hariom Vashishtha. All rights reserved.</p>
               <div className="flex items-center gap-4 sm:justify-between md:justify-normal lg:justify-normal lg:ml-6">
-                {socialLinks.map((item, index) => (
+                {/* {socialLinks.map((item, index) => (
                   <Link
                     to={item.path}
                     key={index}
                     className="w-[28px] h-[28px]   mt-[20px]  border border-solid  p-[2px] m-4
                     border-[#181A1E] rounded-full flex items-center justify-center group hover:bg-primaryColor
                     hover:border-none ">{item.icon}
-                    </Link> ))}
+                    </Link> ))} */}
               </div>
           </div>
           <div>

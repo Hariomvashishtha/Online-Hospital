@@ -270,7 +270,7 @@ const Home = () => {
               <img src={faqImg} className="h-[600px] md:h-[550px] sm:[350px]"></img>
             </div>
             <div  className="w-full md:w-1/2 mr-[10%]">
-              <h2 className="heading text-[40px]">Most questions by our beloved patients</h2>
+              <h2 className="heading text-[40px] m-4 p-4 text-wrap">Most questions by our beloved patients</h2>
             <Faqlist />
             </div>
             

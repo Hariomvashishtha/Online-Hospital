@@ -4,7 +4,7 @@ import {faqs} from "../../assets/data/faqs.js";
 import FaqItem from './FaqItem';
 const Faqlist = () => {
   return (
-    <ul className='mt-[35px]'>
+    <ul className='mt-[35px] m-6 p-4 text-wrap'>
       {faqs.map((item, index) => <FaqItem key={index} index={index} item={item} />)}
     </ul>
   )

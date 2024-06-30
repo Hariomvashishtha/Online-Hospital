@@ -14,10 +14,10 @@ const ServiceCard = ({ item, index }) => {
       <p className="text-[16px] leading-7 text-textColor font-[400] mt-3">
         {desc}
       </p>
-      <div className="flex items-center lg:justify-between md:justify-between sm:justify-around mt-[20px]">
+      <div className="flex items-center justify-between  mt-[20px]">
         <Link
           to="/doctors"
-          className="w-[44px] h-[44px] rounded-full  mt-[8px] mx-[6rem]
+          className="w-[44px] h-[44px] rounded-full  mt-[8px] mx-[0rem]
                flex items-center justify-center group hover:bg-primaryColor hover:border-none relative lg:ml-0  md:ml-10 sm:ml-[65px]"
         >
           <BsArrowRightCircle

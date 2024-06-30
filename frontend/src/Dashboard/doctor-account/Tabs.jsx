@@ -13,7 +13,7 @@ const Tabs = ({ tab, settab }) => {
     dispatch({ type: "LOGOUT" });
     navigate("/login");
   };
-  const [showMenu, setShowMenu] = React.useState(false);
+  const [showMenu, setShowMenu] = React.useState(true);
   return (
     <div>
       <span className="lg:hidden" onClick={() => setShowMenu(!showMenu)}>

@@ -116,17 +116,17 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="mx-[3rem]">
-              <div className="flex items-center justify-center h-[145px] w-[200px] relative left-[75px] ">
-                <img src={icon02}  className=" lg:ml-0 sm:ml-[-55px] md:ml-[-55px]"></img>
+            <div className="px-15 mx-[3rem]">
+              <div className="flex items-center justify-center">
+                <img src={icon02}></img>
               </div>
               <div className="mt-[20px]">
                 <h2 className="text-[26px] leading-9 text-headingCoolor font-[700] text-center">
-                  Find a Location
+                Find a Location
                 </h2>
-                <p className="text-[16px] leading-7 text-textColor font-[400] text-center mt-4 mx-[4px]">
-                  World-class care for everyone. Our health System offers
-                  unmatched , expert health care from lab to clinic
+                <p className="text-[16px] leading-7 text-textColor font-[400] text-center mt-4 mx-6">
+                World-class care for everyone. Our health System offers
+                unmatched , expert health care from lab to clinic
                 </p>
                 <Link
                   to="/doctors"
@@ -140,17 +140,17 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className=" mx-[3rem]">
-              <div className="flex items-center justify-center h-[150px] w-[200px]   relative left-[85px]">
+            <div className="px-15 mx-[3rem]">
+              <div className="flex items-center justify-center">
                 <img src={icon03}></img>
               </div>
               <div className="mt-[20px]">
                 <h2 className="text-[26px] leading-9 text-headingCoolor font-[700] text-center">
-                  Book Appointment
+                Book Appointment
                 </h2>
                 <p className="text-[16px] leading-7 text-textColor font-[400] text-center mt-4 mx-6">
-                  World-class care for everyone. Our health System offers
-                  unmatched , expert health care from lab to clinic
+                World-class care for everyone. Our health System offers
+                unmatched , expert health care from lab to clinic
                 </p>
                 <Link
                   to="/doctors"

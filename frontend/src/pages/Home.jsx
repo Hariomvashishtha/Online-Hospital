@@ -182,7 +182,7 @@ const Home = () => {
           <div className="relative flex flex-col items-center justify-center lg:flex-row ">
             {/* faeture content */}
             <div className="xl:w-[670px] lg:relative lg:left-[10rem]">
-              <h2 className="heading text-[40px] items-center ">
+              <h2 className="heading text-[40px] items-center m-4 p-4 ">
                 {" "}
                 Get Virtual treatment <br /> anytime, Anywhere
               </h2>
@@ -199,7 +199,7 @@ const Home = () => {
                 </li>
               </ul>
               <Link to="/">
-                <button className="btn">Learn More</button>
+                <button className="btn relative left-[85px]">Learn More</button>
               </Link>
             </div>
             {/* feature image */}

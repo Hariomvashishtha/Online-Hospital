@@ -69,7 +69,7 @@ const quickLinks03 = [
     display: "Donate",
   },
   {
-    path: "/",
+    path: "/contact",
     display: "Contact",
   },
   {
